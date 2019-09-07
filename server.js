@@ -53,7 +53,8 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
   */
 
   //Check for errors
-  if (err) console.error("Error occurred in reading listings.json: ", err);
+  if (err) 
+    console.error("Error occurred in reading listings.json: ", err);
 
   //Save the state in the listingData variable already defined
   listingData = data;
