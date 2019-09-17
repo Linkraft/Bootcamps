@@ -4,6 +4,6 @@
 
 module.exports = {
   db: {
-    uri: 'mongodb://linkraft@ufl.edu:hGF5.$yU&_fZ:_J@cluster0.mongodb.net/Listings', //place the URI of your mongo database here.
+    uri: ''
   }
 };
