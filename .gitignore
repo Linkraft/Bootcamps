@@ -1,4 +1,2 @@
-/node_modules
-package-lock.json
-package.json
-config.js
+server/config/config.js
+node_modules
