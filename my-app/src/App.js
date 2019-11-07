@@ -66,7 +66,7 @@ class App extends React.Component {
     return (
       <div className="bg">
         <div className="row">
-          <h1>UF Directory App</h1>
+          <h1 id="Title">UF Directory App</h1>
         </div>
         <Search
           filterText={this.state.filterText}
@@ -77,10 +77,10 @@ class App extends React.Component {
             addData = {this.addData.bind(this)}
           />
           <div className="row">
-            <div className="column1">
+            <div className="column1" id="boxy">
               <div className="tableWrapper">
                 <table className="table table-striped table-hover">
-                  <tr>
+                  <tr id="boxy">
                     <td>
                       <b>Code Building</b>
                     </td>

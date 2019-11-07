@@ -1,6 +1,32 @@
+#Title {
+	color: darkblue;
+	font-size: 30pt;
+	font-family: Verdana;
+	margin: 0;
+	text-align: center;;
+}
+
+#Source {
+	color: darkblue;
+}
+
+.gr__localhost {
+	background: rgb(117, 181, 255);
+}
+
+.bg {
+	background: rgb(117, 181, 255);
+}
+
+#boxy {
+	background: #ccdef9;
+}
+
 #buildForm {
+	border-style: solid;
 	background-color: #ccdef9;
-	padding: 1rem;
+	padding: 1rem 0rem 1rem 2rem;
+	margin: 1rem;
 }
 
 input#buildForm[type="text"] {

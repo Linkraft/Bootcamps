@@ -13,7 +13,7 @@ class BuildingList extends Component {
 		})
 		.map(directory => {
 			return (
-				<tr 
+				<tr id="boxy" 
 					onClick={(e) => this.selectedUpdate(directory.id)}
 					key={directory.id}>
 					<td> {directory.code} </td>
